@@ -23,50 +23,48 @@
 body ,h1,h2,h3,p,span{
     margin: 0;
     padding: 0;
-
 }
+
 /*general information*/
 body{
     font-family: poppins ;
+}
+
+h2{
+    text-align: center;
 }
 
 /* navbar*/
 nav{
     position:sticky;
     background-color: #0475ba;
-    height: 72px;
-    
+    height: 72px; 
 }
 
 h1{
 font-family: poppins;
-font-style: bold;
+font-size: 2em;
 color: #ffffff;
 padding: 22px;
 }
 
 /*header*/
 header{
-    display: flex;
-    flex-direction: column;
     height: 300px;
-     
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
-
-#profil-1{
+#profil-1{  
     padding: 40px;
-    justify-content: center;
-    
 }
-#profil-1 span{
-    color: #0475ba;
-    justify-content: center;
+#profil-1 h3{
+    color: #0475ba;   
 }
-img{
+div img{
     height:150px ;
     width: 150px;
     border-radius: 50%;
-    margin: 0px 40px;
 }
 
 /*section*/
@@ -82,6 +80,9 @@ color: #ffffff;
 
 .white-section h2{
     color: #0475ba;
+}
+.presentation{
+    ;
 }
 /*footer*/
 footer{
